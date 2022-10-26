@@ -14,6 +14,10 @@
 		68602BBE28F32FC500E8569F /* BurgerClassDurcan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68602BBC28F32FC500E8569F /* BurgerClassDurcan.xcdatamodeld */; };
 		68602BC028F32FC700E8569F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68602BBF28F32FC700E8569F /* Assets.xcassets */; };
 		68602BC328F32FC700E8569F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68602BC128F32FC700E8569F /* LaunchScreen.storyboard */; };
+		68602BCB28F5978300E8569F /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68602BCA28F5978300E8569F /* Burger.swift */; };
+		68F2F80828F6EC0000DF2609 /* CheeseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2F80728F6EC0000DF2609 /* CheeseController.swift */; };
+		68F2F80A28F6EFDC00DF2609 /* LastScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2F80928F6EFDC00DF2609 /* LastScreenController.swift */; };
+		68F2F80C28F6F2DF00DF2609 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2F80B28F6F2DF00DF2609 /* StoreController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		68602BBF28F32FC700E8569F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68602BC228F32FC700E8569F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68602BC428F32FC700E8569F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68602BCA28F5978300E8569F /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		68F2F80728F6EC0000DF2609 /* CheeseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseController.swift; sourceTree = "<group>"; };
+		68F2F80928F6EFDC00DF2609 /* LastScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastScreenController.swift; sourceTree = "<group>"; };
+		68F2F80B28F6F2DF00DF2609 /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				68602BB528F32FC500E8569F /* SceneDelegate.swift */,
 				68602BB728F32FC500E8569F /* ViewController.swift */,
 				68602BB928F32FC500E8569F /* Main.storyboard */,
+				68F2F80B28F6F2DF00DF2609 /* StoreController.swift */,
+				68F2F80728F6EC0000DF2609 /* CheeseController.swift */,
+				68602BCA28F5978300E8569F /* Burger.swift */,
+				68F2F80928F6EFDC00DF2609 /* LastScreenController.swift */,
 				68602BBF28F32FC700E8569F /* Assets.xcassets */,
 				68602BC128F32FC700E8569F /* LaunchScreen.storyboard */,
 				68602BC428F32FC700E8569F /* Info.plist */,
@@ -141,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F2F80828F6EC0000DF2609 /* CheeseController.swift in Sources */,
+				68F2F80C28F6F2DF00DF2609 /* StoreController.swift in Sources */,
 				68602BBE28F32FC500E8569F /* BurgerClassDurcan.xcdatamodeld in Sources */,
+				68F2F80A28F6EFDC00DF2609 /* LastScreenController.swift in Sources */,
+				68602BCB28F5978300E8569F /* Burger.swift in Sources */,
 				68602BB828F32FC500E8569F /* ViewController.swift in Sources */,
 				68602BB428F32FC500E8569F /* AppDelegate.swift in Sources */,
 				68602BB628F32FC500E8569F /* SceneDelegate.swift in Sources */,
