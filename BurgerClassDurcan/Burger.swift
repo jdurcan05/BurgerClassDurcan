@@ -24,22 +24,21 @@ public class Burger {
     enum cheeseType{
         case american, cheddar, swiss, noCheese
     }
-    enum cookingLevel {
-    case wellDone, medium, mediumRare, rare
+    enum cookingLevel:String{
+    case wellDone = "Well Done", medium = "Medium", mediumRare = "Medium Rare", rare = "Rare"
     }
     
     
     
     func toString()->String{
-        var str = "A \(cookingLevel.self) \(type) with \(cheeseType.self) cheese and "
+        var str = "A \(cooking.rawValue) \(type) with \(cheese) cheese and"
         for i in 0..<toppings.count {
-            if (i == toppings.count-1){
-                str = "\(str) \(toppings[i])"
-            }
-            else{
-                str = "\(str) \(toppings[i]),"
+            str = "\(str) \(toppings[i])"
+            if i != toppings.count-1 && i != 0{
+                str = "\(str),"
             }
         }
+        str = str + "\n"
         return str
     }
 }

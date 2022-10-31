@@ -12,7 +12,11 @@ class StoreController: UIViewController {
     var burgerCart: [Burger] = [Burger]()
     
     @IBOutlet weak var cartOutlet: UITextView!
+   
     override func viewDidLoad() {
+        for i in 0..<burgerCart.count{
+            cartOutlet.text = cartOutlet.text + burgerCart[i].toString()
+        }
         super.viewDidLoad()
     }
     
